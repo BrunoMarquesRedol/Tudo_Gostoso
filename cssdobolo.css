@@ -1,0 +1,87 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Estilos para o cabeçalho */
+  header {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    border: #FF6F61 solid;
+    font-weight: 1;
+  }
+  
+  /* Estilos para a barra de navegação */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 10px 0;
+    border: #FF6F61 solid;
+    
+  }
+  
+  nav li {
+    margin: 0 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  /* Estilos para a seção de receitas */
+  .recipe {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+  }
+  
+  .recipe img {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .recipe h2 {
+    color: #FF6F61;
+    font-size: 24px;
+  }
+  
+  /* Estilos para detalhes da receita (ingredientes e preparação) */
+  .recipe-details {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+  }
+  
+  .ingredients,
+  .preparation {
+    width: 20%; /* Defina a largura das colunas conforme necessário */
+  }
+  
+  .ingredients p,
+  .preparation p {
+    font-weight: bold;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: left;
+    border: #FF6F61 solid;
+    
+    
+  }
+  
